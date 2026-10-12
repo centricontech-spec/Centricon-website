@@ -23,7 +23,7 @@ export default function Home() {
           </h1>
           <div className="hero-fade mt-10 flex flex-wrap items-end justify-between gap-8">
             <p className="max-w-md text-lead text-ink/85">
-              AI video, motion and visual production for brands — plus the AI systems behind them.
+              AI video, motion and visual production for brands plus the AI systems behind them.
             </p>
             <div className="flex flex-wrap gap-3">
               <ButtonLink href="/contact">Start a project</ButtonLink>

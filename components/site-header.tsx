@@ -25,9 +25,8 @@ export function SiteHeader() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ease-brand ${
-        scrolled || open ? "border-b border-line bg-ground/95 backdrop-blur" : "border-b border-transparent"
-      }`}
+      className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ease-brand ${scrolled || open ? "border-b border-line bg-ground/95 backdrop-blur" : "border-b border-transparent"
+        }`}
     >
       <div className="mx-auto flex h-20 max-w-[1440px] items-center justify-between px-4 md:h-[88px] md:px-10">
         <Link href="/" aria-label="Centricon home" onClick={() => setOpen(false)}>
@@ -35,10 +34,10 @@ export function SiteHeader() {
             src="/brand/centricon-lockup-horizontal-on-dark.svg"
             alt="Centricon"
             width={140}
-            height={32}
+            height={100}
             priority
             unoptimized
-            className="h-7 w-auto md:h-8"
+            className="h-10 w-auto md:h-12"
           />
         </Link>
 
